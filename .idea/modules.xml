@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Lab9.iml" filepath="$PROJECT_DIR$/.idea/Lab9.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microkernel-main/Microkernel-brasil-plugin/Microkernel-brasil-plugin.iml" filepath="$PROJECT_DIR$/microkernel-main/Microkernel-brasil-plugin/Microkernel-brasil-plugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microkernel-main/Microkernel-colombia-plugin/Microkernel-colombia-plugin.iml" filepath="$PROJECT_DIR$/microkernel-main/Microkernel-colombia-plugin/Microkernel-colombia-plugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microkernel-main/Microkernel-common/Microkernel-common.iml" filepath="$PROJECT_DIR$/microkernel-main/Microkernel-common/Microkernel-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microkernel-main/Microkernel-core/Microkernel-core.iml" filepath="$PROJECT_DIR$/microkernel-main/Microkernel-core/Microkernel-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microkernel-main/Microkernel-mexico-plugin/Microkernel-mexico-plugin.iml" filepath="$PROJECT_DIR$/microkernel-main/Microkernel-mexico-plugin/Microkernel-mexico-plugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microkernel-main/Microkernel-rabbit-plugin/Microkernel-rabbit-plugin.iml" filepath="$PROJECT_DIR$/microkernel-main/Microkernel-rabbit-plugin/Microkernel-rabbit-plugin.iml" />
+    </modules>
+  </component>
+</project>
