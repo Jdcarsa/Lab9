@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Microkernel-colombia-plugin" />
+        <module name="Microkernel-brasil-plugin" />
+        <module name="Microkernel-common" />
+        <module name="Microkernel-core" />
+        <module name="Microkernel-rabbit-plugin" />
+        <module name="Microkernel-mexico-plugin" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Microkernel-brasil-plugin" target="1.7" />
+      <module name="Microkernel-colombia-plugin" target="1.7" />
+      <module name="Microkernel-common" target="1.7" />
+      <module name="Microkernel-core" target="1.7" />
+      <module name="Microkernel-mexico-plugin" target="1.7" />
+      <module name="Microkernel-rabbit-plugin" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
