@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>course.microkernel</groupId>
+    <artifactId>Microkernel-rabbit-plugin</artifactId>
+    <version>0.1.0</version>
+    <name>Microkernel-rabbit-plugin</name>
+    <dependencies>
+        <dependency>
+            <groupId>co.unicauca.microkernel.common</groupId>
+            <artifactId>Microkernel-common</artifactId>
+            <version>0.1.0</version>
+        </dependency>
+            <dependency>
+        <groupId>com.rabbitmq</groupId>
+        <artifactId>amqp-client</artifactId>
+        <version>5.12.0</version>
+    </dependency>
+    </dependencies>
+    <properties>
+    <maven.compiler.source>7</maven.compiler.source>
+    <maven.compiler.target>7</maven.compiler.target>
+</properties>
+</project>
