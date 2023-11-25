@@ -5,9 +5,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>course.microkernel</groupId>
-    <artifactId>Microkernel-rabbit-plugin</artifactId>
+    <artifactId>Microkernel-rabbit-consumer</artifactId>
     <version>0.1.0</version>
-    <name>Microkernel-rabbit-plugin</name>
+    <name>Microkernel-rabbit-consumer</name>
     <dependencies>
         <dependency>
             <groupId>co.unicauca.microkernel.common</groupId>
