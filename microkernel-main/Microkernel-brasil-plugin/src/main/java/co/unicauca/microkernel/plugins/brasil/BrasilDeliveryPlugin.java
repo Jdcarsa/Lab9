@@ -3,8 +3,10 @@ package co.unicauca.microkernel.plugins.brasil;
 import co.unicauca.microkernel.common.entities.Delivery;
 import co.unicauca.microkernel.common.entities.Product;
 import co.unicauca.microkernel.common.interfaces.IDeliveryPlugin;
+
 /**
  * Plugin para envios a Brasil
+ *
  * @author Libardo, Julio
  */
 public class BrasilDeliveryPlugin implements IDeliveryPlugin {
@@ -17,21 +19,20 @@ public class BrasilDeliveryPlugin implements IDeliveryPlugin {
     public double calculateCost(Delivery delivery) {
 
         Product product = delivery.getProduct();
-
+        double weight = product.getWeight();
+        double distance = delivery.getDistance();
         double cost;
 
-        //El peso del producto determina el costo.
-        if (product.getWeight() <= 2) {
-
-            cost = 5;
-
+        if (weight > 5) { 
+            //Costo mayor a 5
+            cost = 2 * distance;
+        } else if (weight > 1) {
+            // Costo inferior a 5 kg y superior a 1 kg
+            cost = 1.5 * distance;
         } else {
-
-            //El peso adicional después de 2 kg se cobra a 0.5 por kilo.
-            cost = 5 + (product.getWeight() - 2) * 0.5;
-
+            // Costo inferior a 1 kg
+            cost = 50;
         }
-
         return cost;
     }
 }

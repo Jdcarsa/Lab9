@@ -4,6 +4,9 @@
  */
 package co.unicauca.microkernel.plugins.rabbit.consumer;
 
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+import com.google.gson.JsonParser;
 import com.rabbitmq.client.*;
 import java.io.IOException;
 
@@ -25,10 +28,15 @@ public class RabbitMQConsumer {
             public void handleDelivery(String consumerTag,
                     Envelope envelope, AMQP.BasicProperties properties, byte[] body) throws IOException {
                 String message = new String(body, "UTF-8");
-                System.out.println(" [x] Received '" + message + "'");
+
+                String[] parts = message.split(",");
+                for (String part : parts) {
+                    System.out.println(part.trim());
+                }
+                System.out.println("--------------------------------");
             }
+
         };
         channel.basicConsume(QUEUE_NAME, true, consumer);
     }
 }
-

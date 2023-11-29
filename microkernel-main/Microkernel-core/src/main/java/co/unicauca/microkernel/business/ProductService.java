@@ -16,7 +16,7 @@ public class ProductService {
          * */
         Product productOne = new Product(1, "Play Station 4", 2.1, 26.5, 3.9, 28.8);
         Product productTwo = new Product(2, "Xbox One", 3.2, 27.4, 7.9, 33.3);
-        Product productThree = new Product(2, "Wii U", 1.5, 17.2, 4.6, 26.9);
+        Product productThree = new Product(3, "Wii U", 1.5, 17.2, 4.6, 26.9);
 
         products.add(productOne);
         products.add(productTwo);
